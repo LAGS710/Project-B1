@@ -1,0 +1,43 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.container{
+    overflow: hidden;
+    background-color: black;
+}
+
+.logo{
+    position: fixed;
+    height: 130px;
+    width: 130px;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    overflow: hidden;
+    background-color: #3a69ce54;
+  }
+  
+  li {
+    float: right;
+    margin-right: 15px;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #ffffff;
+  }
