@@ -3,7 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-  }
+}
 
 .container{
     overflow: hidden;
@@ -17,20 +17,22 @@ body{
     margin-left: 40px;
 }
 
+
+
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 50px;
     overflow: hidden;
     background-color: #3a69ce54;
-  }
+}
   
-  li {
+li {
     float: right;
     margin-right: 15px;
-  }
+}
   
-  li a {
+li a {
     display: block;
     padding: 8px;
     text-decoration: none;
@@ -40,4 +42,37 @@ ul {
     letter-spacing: 1px;
     font-weight: 700;
     color: #ffffff;
-  }
+}
+
+li a:hover {
+    color: #f8e6ab;
+}
+
+.historia-del-club{
+    padding-top: 100px;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.decadas{
+    background-color: #031641d8;
+    float: right;
+    width: 17%;
+    margin-right: 50px;
+    height: ;
+}
+
+.informacion{
+    float: left;
+    width: 75%;
+    text-align: justify;
+}
+
+.video{
+    width:auto;
+    text-align: center;
+}
+
+
+
+
