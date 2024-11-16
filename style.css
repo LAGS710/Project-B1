@@ -17,8 +17,6 @@ body{
     margin-left: 40px;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0px;
@@ -48,31 +46,187 @@ li a:hover {
     color: #f8e6ab;
 }
 
-.historia-del-club{
-    padding-top: 100px;
-    padding-left: 380px;
-    padding-right: 380px;
+h1{
+    font-size: 30px;
 }
 
-.decadas{
-    background-color: #031641d8;
-    float: right;
-    width: 17%;
-    margin-right: 50px;
-    height: ;
+h2{
+    font-size: 25px;
+}
+
+h5{
+	text-align: center;
+    font-size: 20px;
+}
+
+h5{
+	text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+main{
+    padding-top: 100px;
+    padding-left: 340px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    background-image: url(https://www.clubamerica.com.mx/wp-content/uploads/2021/04/marco-pagina-equipo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.historia-del-club{
+    background-color: whitesmoke;
+    width:auto;
+    padding:10px;
+    height:1650px;
+    margin-bottom: 20px;
 }
 
 .informacion{
+    width: 70%;
+    padding: 30px;
     float: left;
-    width: 75%;
+    height: auto;
+}
+
+.vdeo{
+}
+
+.contenido p{
     text-align: justify;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 500 !important;
+    margin: 10px;
 }
 
-.video{
-    width:auto;
+.decadas{
+    width: 23%;
+    float: right;
+}
+
+.decadas li{
+    background-color: rgb(230, 227, 227);
+    height:auto;
+    width:110px;
+}
+
+.decadas a{
+    color: #051c4d;
+    text-decoration: none;
+    padding: 5px 1px 5px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 20;
+}
+
+li a:hover {
+    color: #f8e6ab;
+}
+
+.decadas-container{
+    width: 67%;
+}
+
+.actualidad{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.plantilla-fondo{
+    height: 750px;
+    background-image: url(https://media.metrolatam.com/2020/08/15/202008153965-7556b51d6fa439b46cbb195e4e31fe31.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.plantilla{
+    background-color: #eceef1ef;
+    opacity: .9;
+    padding: 10px;
+}
+
+
+.plantilla li{
     text-align: center;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 13px;
+    text-align: justify;
+    font-size: 13px;
+    font-weight:lighter;
 }
 
 
+.plantilla-campeonatos{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.imagen-vitrina{
+    height: 750px;
+    background-image: url(https://www.pasionaguila.com/u/fotografias/m/2024/1/2/f960x540-20717_94792_5050.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    padding: 50px;
+    margin-top: 50px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.campeonatos{
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 500 !important;
+    margin: 10px;
+}
+
+.campeonatos li{
+    float: left;
+    list-style-type: circle;
+    padding: 5px;
+
+}
+
+.container-footer{
+    width: auto;
+    background-color:#ebedee !important;
+    height: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.imagen-footer{
+    background-image: url(https://www.clubamerica.com.mx/wp-content/uploads/2021/04/logo-footer-america-televisa.svg);
+    background-repeat: no-repeat;
+    float: right;
+    width: 350px;
+    height: 50px;
+}
+
+.descripcion-footer{
+    margin-top: 50px;
+    height: 100px;
+    display: block;
+}
 
 
+.descripcion-footer li{
+    float: left;
+}
