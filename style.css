@@ -11,10 +11,18 @@ body{
 }
 
 .logo{
-    position: fixed;
     height: 130px;
     width: 130px;
     margin-left: 40px;
+}
+
+.container ul{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container li{
+    padding-top: 50px;
 }
 
 ul {
