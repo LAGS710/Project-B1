@@ -25,7 +25,7 @@ Creación de un página HTML usando los conocimientos adqueridos en en el bloque
 1. Clonar repositorio
 2. Abrir con live server usando VCode el archivo index.html
 
-### Sin intalación
+### Sin instalación
 
 1. Abrir el siguiente enlace para acceder a la vista prevía de la página.
 
